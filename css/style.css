@@ -1,0 +1,462 @@
+
+
+.navbar-brand{
+font-size: 20px;
+font-family: 'Nunito Sans', sans-serif;
+}
+.nav-link{
+    transition:text-decoration 1s;
+
+}
+.nav-link:hover{
+text-decoration: underline;
+}
+
+#home{
+    background-image: url(../imgs/bg.jpg);
+    background-size: cover;
+
+}
+.img1-img1{
+    position: relative;
+}
+
+.img-img::after{
+    content: "";
+    width: 28%;
+    height: 80%;
+    position: absolute;
+    left: 90px;
+    bottom: -20px;
+    background-image: url(../dots.png);
+    z-index: -1;
+}
+
+
+.prog1{
+    position: relative;
+    box-shadow: 10px 20px 5px #d6d6d6 inset;
+}
+.prog1::before{
+    content: "Web Design";
+    position: absolute;
+    width: auto; height: 25px;
+    color: #fff;
+    left: 10px;
+    top: -1px;
+}
+
+.prog2{
+    position: relative;
+    box-shadow: 10px 20px 5px #d6d6d6 inset;
+
+}
+.prog2::before{
+    content: "Branding";
+    position: absolute;
+    width: auto; height: 25px;
+    color: #fff;
+    left: 10px;
+    top: -1px;
+}
+
+.prog3{
+    position: relative;
+    box-shadow: 10px 20px 5px #d6d6d6 inset;
+
+}
+.prog3::before{
+    content: "Development";
+    position: absolute;
+    width: auto; height: 25px;
+    color: #fff;
+    left: 10px;
+    top: -1px;
+}
+
+
+.color1{
+position: relative;
+
+}
+
+.color2{
+    background-color:rgba(1, 1, 1, 0.6);
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    position: absolute;
+}
+
+.tex{
+    z-index: 3;
+
+}
+.fream{
+    z-index: 3;
+
+}
+
+.textt{
+    z-index: 3;
+
+}
+
+.tex h1{
+    font-family: 'Lilita One', cursive;
+    font-size: 60px;
+}
+
+.and{
+    font-size: 100px;
+    font-family: 'Chathura', sans-serif;
+}
+
+.fream h2{
+font-size: 50px;
+
+}
+
+.fream h2::after{
+    content: "|";
+    animation-name:demo ;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes demo{
+0%{content: "D|";}
+1%{content: "De|";}
+2%{content: "Dev|";}
+3%{content: "Deve|";}
+4%{content: "Devel|";}
+5%{content: "Develo|";}
+6%{content: "Develop|";}
+7%{content: "Develope|";}
+8%{content: "Developer|";}
+9%{content: "Develope|";}
+10%{content: "Develop|";}
+11%{content: "Develo|";}
+12%{content: "Devel|";}
+13%{content: "Deve|";}
+14%{content: "Dev|";}
+15%{content: "De|";}
+16%{content: "D|";}
+17%{content: "|";}
+18%{content: "D|";}
+19%{content: "De|";}
+20%{content: "Des|";}
+21%{content: "Desi|";}
+22%{content: "Desig|";}
+23%{content: "Design|";}
+24%{content: "Designe|";}
+25%{content: "Designer|";}
+26%{content: "Designe|";}
+27%{content: "Design|";}
+28%{content: "Desig|";}
+29%{content: "Desi|";}
+30%{content: "Des|";}
+31%{content: "De|";}
+32%{content: "D|";}
+33%{content: "|";}
+34%{content: "L|";}
+35%{content: "La|";}
+36%{content: "Lar|";}
+37%{content: "Larr|";}
+38%{content: "Larry |";}
+39%{content: "Larry D|";}
+40%{content: "Larry Da|";}
+41%{content: "Larry Dan|";}
+42%{content: "Larry Dani|";}
+43%{content: "Larry Danie|";}
+44%{content: "Larry Daniel|";}
+45%{content: "Larry Daniels|";}
+46%{content: "Larry Daniel|";}
+47%{content: "Larry Danie|";}
+48%{content: "Larry Dani|";}
+49%{content: "Larry Dan|";}
+50%{content: "Larry Da|";}
+51%{content: "Larry |";}
+52%{content: "Larry|";}
+53%{content: "Larr|";}
+54%{content: "Lar|";}
+55%{content: "La|";}
+56%{content: "L|";}
+57%{content: "|";}
+
+}
+
+.child{
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.364);
+}
+
+
+.child:hover{
+    cursor: pointer;
+}
+
+
+
+.nan h2{
+font-family: 'Nunito Sans', sans-serif;
+font-size: 40px;
+}
+ 
+.man{
+    color:#5b5b5b;
+font-family: 'Nunito Sans', sans-serif;
+font-size: 18px;
+
+
+}
+
+.but{
+    background-color: black;
+    color: white;
+transition: 1s;   
+}
+.but1{
+    transition: 1s;   
+background-color: white;
+}
+
+.but:hover{
+    background-color: white;
+    color: black;
+}
+
+.but1:hover{
+    background-color: black;
+    color: white;
+}
+.font{
+    font-size: 50px;
+font-family: 'Nunito Sans', sans-serif;
+
+}
+
+
+.bord{
+    border: dashed 1px #e0dddd;
+    width: 15%;
+    margin: auto;
+}
+
+.wites{
+    width: 80px;
+    height: 80px;
+   background-color:#f7f7f7;
+   transition: 1s;
+}
+.wites i{
+    font-size: 30px;
+}
+
+.hove:hover .wites {
+    background-color: black;
+    color: white;
+
+}
+
+
+
+
+.workk{
+    font-size: 50px;
+font-family: 'Nunito Sans', sans-serif;
+
+
+}
+
+
+
+
+.acesen{
+position: relative;
+
+}
+
+.acesen1{
+transition:background-color 0.7s ,border 0.7s ,top 0.7s;
+opacity: 0;
+overflow:hidden;
+}
+
+
+.bar{
+    width: 30px;
+    height: 30px;
+    
+}
+
+.acesen:hover .acesen1{
+background-color:rgba(255, 255, 255, 0.898);
+border: solid 7px #bbb8b888;
+width: 100%;
+height: 100%;
+top: 0%;
+position: absolute;
+opacity: 1;
+}
+
+
+
+
+
+
+
+.mood ul{
+    list-style: none;
+}
+
+.mood a{
+    text-decoration: none;
+    color: black;
+font-family: 'Nunito Sans', sans-serif;
+font-size: 20px;
+}
+
+.moode img{
+    width: 90px;
+}
+
+.fontt h2{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 45px;
+}
+
+.icon{
+    font-size: 30px;
+}
+
+.icon1{
+    font-size: 35px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.social{
+    background-color: #5b5b5b;
+}
+
+
+
+
+
+
+.tem h2{
+    font-size: 50px;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+.rotut1{
+position: relative;
+overflow: hidden;
+}
+
+.layer{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    background-color: rgba(255, 255, 255, 0.95);
+    opacity: 0;
+    transform: rotateY(180deg);
+    transition:transform 1s ;
+}
+
+.layer ul li{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+    transition:1s;
+}
+
+.card:hover .layer{
+    cursor: pointer;
+    opacity: 1;
+    transform: rotateY(0deg) ;
+
+}
+
+.rotut1 img{
+    transition:transform 0.7s ;
+}
+
+.rotut1:hover img{
+    transform: scale(1.2);
+}
+
+.layer ul li:hover{
+    background-color: #fff;
+    color: black;
+}
+
+.card-body{
+    background-color:#5b5b5b ;
+    color: #fff;
+}
+
+
+
+.adres{
+    width: 60px;
+    height: 60px;
+    background-color:#e0dddd;
+    margin-left: 42%;
+    transition: 0.6s;
+}
+
+.adres:hover {
+    background-color: black;
+    color: #fff;
+}
+
+.adres i{
+    font-size: 25px;
+}
+.inpu1{
+    width: 45%;
+    margin-left: 30px;
+    padding: 10px;
+    background-color: #e0dddd;
+    border: none;
+    outline: none;
+}
+
+.area1{
+    width: 92.5%;
+    height: 160px;
+    margin-left: 27px;
+    background-color: #e0dddd;
+    padding: 10px;
+    border: none;
+    outline: none;
+
+}
+
+.buton{
+    width: 120px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 5%;
+    background-color: black;
+    color: #fff;
+    transition: 0.5s;
+
+}
+
+.buton:hover{
+    background-color: white;
+    color: black;
+}
+
